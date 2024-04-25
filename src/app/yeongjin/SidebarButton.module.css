@@ -1,0 +1,26 @@
+.sidebarButton {
+    background-color: #222;
+    padding: 10px 15px;
+    display: flex;
+    transition: background-color 0.3s ease;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+
+    &:hover {
+        background-color: #333;
+    }
+}
+
+.logo{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.text{
+    flex-grow: 5;
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 0;
+}
