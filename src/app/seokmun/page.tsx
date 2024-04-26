@@ -1,5 +1,12 @@
+import React from 'react';
+import Header from './components/header';
+
 const Seokmun = () => {
-  return <h1>석문</h1>
-}
+  return (
+    <div>
+      <Header></Header>
+    </div>
+  );
+};
 
 export default Seokmun;

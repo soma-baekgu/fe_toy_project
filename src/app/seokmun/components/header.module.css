@@ -1,0 +1,28 @@
+#header {
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff; /* 배경색 설정 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff; /* 배경색 설정 */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* 상단 그림자 효과 */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
