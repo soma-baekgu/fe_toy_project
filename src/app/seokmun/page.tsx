@@ -11,11 +11,17 @@ const Seokmun = () => {
   return (
     <div>
       <Header />
+      <hr />
       <Home />
+      <hr />
       <Aboutme />
+      <hr />
       <Skills />
+      <hr />
       <Portfolio />
+      <hr />
       <Design />
+      <hr />
       <Contact />
       <br />
       <br />
