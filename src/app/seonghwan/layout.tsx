@@ -6,13 +6,16 @@ import WorkspaceSidebar from "@/app/seonghwan/components/workspace/WorkspaceSide
 import React from "react";
 
 
-const Seonghwan = () => {
+const Seonghwan = (
+  {children,}
+    : Readonly<{ children: React.ReactNode; }>
+) => {
   return (
     <RootContainer>
       <RootHeader>hi</RootHeader>
       <MainContainer>
         <WorkspaceSidebar />
-        <ContentContainer>hi</ContentContainer>
+        <ContentContainer>{children}</ContentContainer>
       </MainContainer>
     </RootContainer>
   )
