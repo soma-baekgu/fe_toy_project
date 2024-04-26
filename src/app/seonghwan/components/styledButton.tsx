@@ -1,8 +1,9 @@
 "use client"
 
 import styled from "styled-components";
+import React from "react";
 
-const Button = ({children}: {children:any}) => {
+const Button = ({children}: {children: React.ReactNode | string}) => {
   return <StyledButton>{children}</StyledButton>
 }
 
