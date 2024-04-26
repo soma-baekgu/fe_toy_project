@@ -2,8 +2,9 @@
 
 import styled from "styled-components";
 import './global.css'
-import WorkspaceSidebar from "@/app/seonghwan/components/WorkspaceSidebar";
+import WorkspaceSidebar from "@/app/seonghwan/components/workspace/WorkspaceSidebar";
 import React from "react";
+
 
 const Seonghwan = () => {
   return (
