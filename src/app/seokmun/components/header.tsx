@@ -1,7 +1,7 @@
 "use client";
 // Header.tsx 파일 예시
 import React, {useState, useEffect} from 'react';
-import styles from './header.module.css'; // CSS 모듈 임포트
+import styles from '../css/header.module.css'; // CSS 모듈 임포트
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
